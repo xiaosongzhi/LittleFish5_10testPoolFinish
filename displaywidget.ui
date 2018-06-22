@@ -1,0 +1,1677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DisplayWidget</class>
+ <widget class="QWidget" name="DisplayWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DisplayWidget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="548,1038,334">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QGroupBox" name="groupBox_4">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/image/images/背景左.png);</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="hum_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>633</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tem_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>591</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointX_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>592</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointY_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>633</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="depth_label">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>540</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="PointId_label">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>540</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>pointId</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="v_label">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>540</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="power_label">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>500</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>power</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="direction_label">
+        <property name="geometry">
+         <rect>
+          <x>420</x>
+          <y>540</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>direction</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="speed_label">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>501</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>speed</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="depth3_label">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>883</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>12</string>
+        </property>
+       </widget>
+       <widget class="MyItem" name="yaw_GraphicsView">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>250</y>
+          <width>210</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOff</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev1Power_label">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>191</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>31</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/切图/100.png);
+color: rgb(85, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="state1_label">
+        <property name="geometry">
+         <rect>
+          <x>266</x>
+          <y>527</y>
+          <width>22</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel{border-image: url(:/new/prefix1/image/images/连接_1.png);}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="state2_label">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>676</y>
+          <width>23</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/连接.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="state3_label">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>847</y>
+          <width>23</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/连接.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="serialPortConfig_Btn">
+        <property name="geometry">
+         <rect>
+          <x>33</x>
+          <y>103</y>
+          <width>114</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{border-image: url(:/new/prefix1/image/images/配置-正常.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/image/images/配置-悬浮.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/images/配置-按下.png);}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev1PowNum_label">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>46</y>
+          <width>51</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Agency FB</family>
+          <pointsize>25</pointsize>
+          <weight>9</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+font: 75 25pt &quot;Agency FB&quot;;
+color: rgb(85, 255, 0);
+</string>
+        </property>
+        <property name="text">
+         <string>100</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton1">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>148</y>
+          <width>21</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton2">
+        <property name="geometry">
+         <rect>
+          <x>309</x>
+          <y>149</y>
+          <width>21</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButton3">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>149</y>
+          <width>21</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointX3_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>934</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>yaw</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointY3_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>970</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>yaw</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tem3_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>934</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hum3_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>973</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointX2_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>763</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="pointY2_label">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>803</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="tem2_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>762</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="hum2_label">
+        <property name="geometry">
+         <rect>
+          <x>352</x>
+          <y>803</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>123</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="depth2_label">
+        <property name="geometry">
+         <rect>
+          <x>160</x>
+          <y>710</y>
+          <width>61</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>12</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>210</y>
+          <width>91</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CheckBox</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="447,633">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/prefix1/image/images/背景上.png);</string>
+         </property>
+         <property name="title">
+          <string/>
+         </property>
+         <widget class="MyItem" name="pitch_GraphicsView">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>110</y>
+            <width>283</width>
+            <height>283</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+         </widget>
+         <widget class="MyItem" name="roll_GraphicsView">
+          <property name="geometry">
+           <rect>
+            <x>640</x>
+            <y>110</y>
+            <width>283</width>
+            <height>283</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+          </property>
+          <property name="verticalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+          <property name="horizontalScrollBarPolicy">
+           <enum>Qt::ScrollBarAlwaysOff</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="rotateBackground2_label">
+          <property name="geometry">
+           <rect>
+            <x>610</x>
+            <y>350</y>
+            <width>356</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="rotateBackground1_label">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>350</y>
+            <width>356</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="pitch_label">
+          <property name="geometry">
+           <rect>
+            <x>440</x>
+            <y>90</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;;</string>
+          </property>
+          <property name="text">
+           <string>pitch</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="roll_label">
+          <property name="geometry">
+           <rect>
+            <x>935</x>
+            <y>95</y>
+            <width>61</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 255);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+          </property>
+          <property name="text">
+           <string>roll</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <property name="styleSheet">
+          <string notr="true">border-image: url(:/new/prefix1/image/images/编队背景.png);</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="page_1">
+          <widget class="qfi_HSI" name="graphicsView">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>991</width>
+             <height>581</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QWidget" name="page_2">
+          <widget class="QGroupBox" name="groupBox_3">
+           <property name="geometry">
+            <rect>
+             <x>500</x>
+             <y>60</y>
+             <width>381</width>
+             <height>191</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(255, 170, 255);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="title">
+            <string>PID</string>
+           </property>
+           <widget class="QRadioButton" name="pid_1RBtn">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>30</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>1号</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="pid_2RBtn">
+            <property name="geometry">
+             <rect>
+              <x>100</x>
+              <y>30</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>2号</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="pid_3RBtn">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>30</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>3号</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="depth_RBtn">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>60</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>深度</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="yaw_RBtn">
+            <property name="geometry">
+             <rect>
+              <x>100</x>
+              <y>60</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>Yaw</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="roll_RBtn">
+            <property name="geometry">
+             <rect>
+              <x>188</x>
+              <y>60</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>Roll</string>
+            </property>
+           </widget>
+           <widget class="QRadioButton" name="pitch_RBtn">
+            <property name="geometry">
+             <rect>
+              <x>280</x>
+              <y>60</y>
+              <width>71</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>Pitch</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="P_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>85</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="I_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>115</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="D_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>90</x>
+              <y>145</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="Nor_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>85</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="Zero_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>115</y>
+              <width>81</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_33">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>90</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>P</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_34">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>114</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>I</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_35">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>140</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>D</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_36">
+            <property name="geometry">
+             <rect>
+              <x>200</x>
+              <y>114</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>Zero</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_37">
+            <property name="geometry">
+             <rect>
+              <x>200</x>
+              <y>90</y>
+              <width>51</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>Normal</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="PID_Btn">
+            <property name="geometry">
+             <rect>
+              <x>260</x>
+              <y>140</y>
+              <width>75</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);</string>
+            </property>
+            <property name="text">
+             <string>确定</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="geometry">
+            <rect>
+             <x>200</x>
+             <y>40</y>
+             <width>201</width>
+             <height>221</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(255, 255, 0);</string>
+           </property>
+           <property name="title">
+            <string>GroupBox</string>
+           </property>
+           <widget class="QLabel" name="label_3">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>30</y>
+              <width>41</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>item</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_4">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>67</y>
+              <width>41</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_5">
+            <property name="geometry">
+             <rect>
+              <x>20</x>
+              <y>100</y>
+              <width>41</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_6">
+            <property name="geometry">
+             <rect>
+              <x>23</x>
+              <y>128</y>
+              <width>41</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>angle</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="item_LineEdit">
+            <property name="geometry">
+             <rect>
+              <x>80</x>
+              <y>30</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="x_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>80</x>
+              <y>63</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="y_lineEdit">
+            <property name="geometry">
+             <rect>
+              <x>80</x>
+              <y>98</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+            </property>
+           </widget>
+           <widget class="QLineEdit" name="angle_LineEdit">
+            <property name="geometry">
+             <rect>
+              <x>80</x>
+              <y>130</y>
+              <width>113</width>
+              <height>20</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="enter_Btn">
+            <property name="geometry">
+             <rect>
+              <x>70</x>
+              <y>180</y>
+              <width>75</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>确认</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_8">
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/new/prefix1/image/images/背景右.png);</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QPushButton" name="setFormate_Btn">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>560</y>
+          <width>90</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{border-image: url(:/new/prefix1/image/images/开始编队-正常.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/image/images/开始编队-悬浮.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/images/开始编队-按下.png);}
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="overFormate_Btn">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>560</y>
+          <width>90</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{border-image: url(:/new/prefix1/image/images/结束编队-正常.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/image/images/结束编队-悬浮.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/images/结束编队-按下.png);}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev2Power_label">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>204</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/90_1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev3Power_label">
+        <property name="geometry">
+         <rect>
+          <x>29</x>
+          <y>237</y>
+          <width>204</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/90_1.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev2Roll_label">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>145</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev3Roll_label">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>283</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev2Pitch_label">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>184</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev3Pitch_label">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>323</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+font: 75 12pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>60</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev2PowNum_label">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>100</y>
+          <width>51</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(85, 255, 0);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>90%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="dev3PowNum_label">
+        <property name="geometry">
+         <rect>
+          <x>240</x>
+          <y>230</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(85, 255, 0);
+font: 75 14pt &quot;Agency FB&quot;;</string>
+        </property>
+        <property name="text">
+         <string>90%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="formateState_Label">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>810</y>
+          <width>101</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/透明.png);
+color: rgb(85, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>编队状态</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="check1_RadioButton">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>700</y>
+          <width>60</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Rounded MT Bold</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string>DEV1</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="check2_RadioButton">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>700</y>
+          <width>65</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Rounded MT Bold</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string>DEV2</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="check3_RadioButton">
+        <property name="geometry">
+         <rect>
+          <x>210</x>
+          <y>700</y>
+          <width>65</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Rounded MT Bold</family>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string>DEV3</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="check_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>48</x>
+          <y>765</y>
+          <width>135</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="check_Btn">
+        <property name="geometry">
+         <rect>
+          <x>196</x>
+          <y>764</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QPushButton{border-image: url(:/new/prefix1/image/images/确认-正常.png);}
+QPushButton:hover{border-image: url(:/new/prefix1/image/images/确认-悬浮.png);}
+QPushButton:pressed{border-image: url(:/new/prefix1/image/images/确认-按下.png);}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="angle_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>134</x>
+          <y>498</y>
+          <width>135</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="length_lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>133</x>
+          <y>451</y>
+          <width>135</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/文字框背景 (1).png);</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="form1_label">
+        <property name="geometry">
+         <rect>
+          <x>27</x>
+          <y>864</y>
+          <width>80</width>
+          <height>134</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/btn_1c.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="form2_label">
+        <property name="geometry">
+         <rect>
+          <x>118</x>
+          <y>864</y>
+          <width>80</width>
+          <height>134</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/btn_2a.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="form3_label">
+        <property name="geometry">
+         <rect>
+          <x>211</x>
+          <y>864</y>
+          <width>80</width>
+          <height>134</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/new/prefix1/image/images/btn_3c.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>420</y>
+          <width>91</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string>CheckBox</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>420</y>
+          <width>91</width>
+          <height>19</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 0);
+border-image: url(:/new/prefix1/image/images/透明.png);</string>
+        </property>
+        <property name="text">
+         <string>CheckBox</string>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>qfi_HSI</class>
+   <extends>QGraphicsView</extends>
+   <header>qfi_hsi.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyItem</class>
+   <extends>QGraphicsView</extends>
+   <header>myitem.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
